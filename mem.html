@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Diary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="OIP.jpg">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Memory Diary</h1>
+        </header>
+
+        <main>
+            <section id="new-entry">
+                <h2>Add New Entry</h2>
+                <form id="entry-form">
+                    <label for="entry-date">Date:</label>
+                    <input type="date" id="entry-date" required>
+                    
+                    <label for="entry-content">Entry:</label>
+                    <textarea id="entry-content" rows="4" required></textarea>
+                    
+                    <button type="submit">Add Entry</button>
+                </form>
+            </section>
+
+            <section id="entries-list">
+                <h2>Diary Entries</h2>
+                <ul id="entry-list">
+                    
+                </ul>
+            </section>
+            
+            <section id="entry-detail" style="display: none;">
+                <h2>Entry Details</h2>
+                <p id="detail-content"></p>
+                <button id="back-button">Back to List</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

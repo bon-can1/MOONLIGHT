@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.quoteslyfe.com/images/collection3/quotations45/Where-your-fear-is-there-is-your-45231.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background: #4f6f9e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 27px;
+}
+
+.bx{
+    background-color: #9ebddc;
+    
+}
+
+.habit-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#habit-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #9ebddc;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.habit-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habit-list li {
+    background: #9ebddc;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habit-list button {
+    background: #9ebddc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.progress {
+    margin-top: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    background: #9ebddc;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#progress {
+    height: 100%;
+    background: #4caf50;
+    width: 0;
+    transition: width 0.3s;
+}
+
+#progress-text {
+    text-align: center;
+    font-size: 18px;
+}
